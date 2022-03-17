@@ -16,15 +16,23 @@
     gdy liczba czytelników w bibliotece jest równa 0.
 
 2. Projekt składa się z 4 modułów
+
     a) library - moduł biblioteki (zasób)
+    
     b) reader - moduł czytelnika
+    
     c) writer - moduł pisarza
+    
     d) launcher - moduł zapewniający główną metodę uruchamijącą alogorytm
 
 3. Sposób uruchomienia
+
     cd Readers_and_writers
+    
     mvn package
+    
     cd launcher/target
+    
     java -jar tturek-zadanie2.jar
 
 4. Komunikaty (n == id, gdzie n to dowolna liczba):
