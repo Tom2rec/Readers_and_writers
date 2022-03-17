@@ -30,13 +30,22 @@
 4. Komunikaty (n == id, gdzie n to dowolna liczba):
 
   a) czytelnik
+  
     - INFO: READER ID: [n] wants to go into Library - gdy wątek czytelnika chce odczytać zasób
+    
     - INFO: READER ID: [n] has entered the library - gdy wątek czytelnika wszedł do czytelni
+    
     - INFO: READER ID: [n] has read book: XXX - gdy wątek czytelnika odczytał zasób, gdzie XXX - treść zasobu
+    
     - INFO: READER ID: [n] has left the library - gdy wątek czytelniak opuścił zasób
 
   b) pisarz
+  
     - INFO: WRITER ID: [n] wants to go into Library - gdy wątek pisarza chce zapisać zasób
+    
     - INFO: WRITER ID: [n] has entered the library - gdy wątek pisarza wszedł do czytelni
+    
     - INFO: WRITER ID: [n] has written the book - gdy wątek pisarza zapisał zasób,
+    
     - INFO: WRITER ID: [n] has left the library - gdy wątek pisarza opuścił zasób
+    
